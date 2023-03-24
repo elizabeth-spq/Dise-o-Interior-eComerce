@@ -1,0 +1,61 @@
+.texto{
+    font-size: 70px;
+    letter-spacing:-5;
+    text-transform: none;
+    font-weight: 700;
+    position: relative;
+    font-family: "Jost",sans-serif;
+    text-align: center;
+    margin-bottom: 110px;
+    margin-top: 60px;
+}
+.fondo-blanco{
+    background-color: white;
+    
+}
+/* Color Catwgoria seleccionada*/
+.list-group-item.active {
+    z-index: 2;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+} 
+/*categorias titulo de lista*/
+.cate{
+    /*font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0px;*/
+    color: #141414;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 28px;
+}
+.articulo{
+
+    font-size: 16px;
+    padding-bottom: 10px;
+
+}
+.articulo2{
+ 
+    font-size: 14px;
+    padding-top: 10px;
+
+}
+#lista1{
+    padding: 0 0 0 30px;
+}
+#lista-categorias{
+    cursor: pointer;
+}
+/*Botón filtrar*/
+.btnFiltrar{
+    float: left;
+    font-size: 14px;
+    padding: 12px 26px;
+    border-radius: 3px;
+    background-color: #161616;
+    font-weight: 700;
+    color: white;
+}

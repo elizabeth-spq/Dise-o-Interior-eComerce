@@ -1,0 +1,61 @@
+ #direccion{
+    margin-top: 0px;
+    width: 1240px;
+    float: left;
+    text-align:left ;
+    font-weight: 400;
+    color: #9e9e9e;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    line-height: 50px;
+    
+}
+ #derechos{
+    margin-top: 70px;
+    margin-bottom: 55px;
+    width: auto;
+    float: left;
+    text-align:left ;
+    font-weight: 400;
+    color: #9e9e9e;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    line-height: 30px;
+    
+}
+#redes{
+    margin-top: 70px;
+    width: auto;
+    float: right;
+    text-align:left ;
+    font-weight: 400;
+    color: #9e9e9e;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    line-height: 30px;
+}
+#redes ul{
+    display:inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+   
+  
+}
+#redes ul li a{
+    text-decoration: none;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#linea{
+    padding-top: 25px;
+    width: 125px;
+    border-bottom:3px solid black ;
+}
+#redes i{
+    color: black;
+    width: 19px;
+    margin-left: 15px ; 
+    filter: opacity(0.2) drop-shadow(0 0 0 #CCCCCC);
+}

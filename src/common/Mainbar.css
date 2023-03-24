@@ -1,0 +1,78 @@
+.navbar{
+    padding: 55px 0px 20px 0px;
+    box-shadow: 1px 1px 10px #e3e3e3;
+}
+.img-responsive{
+    width: 130px;
+}
+#itemmenu{
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #474747;
+    border-color: #e6e6e6;
+    padding: 0 18px;
+}
+#itembuscar{
+    color: #474747;
+    padding: 0 35px;
+    height: 15px;
+
+}
+.navbar-custom{
+    background-color: var(--color1);
+}
+.btn {
+    border: none;
+    background-color:#fafafa;
+    color: #474747;
+    font-size: 2rem;
+    border: none;
+    
+}
+.btn-primary {
+    color: #474747;
+    background-color: #fafafa;
+    border-color: #fafafa;
+    border: none;
+}
+.btn-primary:hover {
+    color: #474747;
+    background-color: #fafafa;
+    border-color: #fafafa;
+    border: none;
+}
+.btn-primary:focus {
+    color: #474747;
+    background-color: #fafafa;
+    border-color: #fafafa;
+    border: none;
+}
+#menu{
+    height: 50px;
+
+}
+#logo{
+    height: 35px;
+    width: 120px;
+    padding-bottom: 3px;
+}
+
+@media (max-width:  576px) {
+    #menuderecha{
+        display: none;
+    }
+    #itembuscar{
+        display: none;
+    }
+  }
+
+  /* Menu desplegable administracion*/
+  #navbarDropdown{
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #474747;
+    border-color: #e6e6e6;
+    padding: 0 18px;
+  }

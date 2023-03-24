@@ -1,0 +1,13 @@
+#btnBuscar4{
+
+    width: 25%;
+    height: 45px;
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    font-size: 17px;
+    
+    font-family: "Jost",sans-serif;
+    cursor: pointer;
+    letter-spacing: .8px;
+}

@@ -1,0 +1,99 @@
+#opciones{
+    padding-bottom: 50px;
+}
+#opciones ul{
+    display:inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+    text-align: left;
+   
+  
+}
+#opciones ul li a{
+    text-decoration: none;
+    color: #939393;
+    letter-spacing: 6px;
+    font-weight:400;
+    font-size: 13px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+#opciones ul li a:hover{
+    color: #383838;
+}
+
+
+/*HOVER IMAGEN*/
+#cont {
+    justify-content: center;
+    align-items: center;
+    
+}
+#cont .card{
+    cursor: pointer;
+    
+}
+#cont .card img{
+    transition: all 500ms ease-out;
+    
+    
+}
+#cont .card .capa{
+    position: absolute;
+    top: 0;
+    background: rgba(255, 255, 255, 0.85);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+#cont .card:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+#cont .card:hover > .capa h5{
+    opacity: 1;
+    visibility: visible;
+    text-align: center;
+    justify-content: center;
+   
+}
+#cont .card .capa h5{
+    
+    color: #111111;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: none;
+    margin: 46% 20% 0% 20% ;
+}
+.col-card{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+}
+
+/* ver todo */
+#vertodo{
+    width: 100% ;
+    margin-top: 60px;
+    height: 90px;
+    text-align: center;
+    color: #1e1e1e;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    
+}
+#vertodo p{
+    margin: auto;
+    width: 95px;
+    padding-bottom: 3px;
+    border-bottom:1.5px solid black ;
+    cursor: pointer;
+}

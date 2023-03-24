@@ -1,0 +1,104 @@
+
+.texto{
+    font-size: 70px;
+    letter-spacing:-5;
+    text-transform: none;
+    font-weight: 700;
+    position: relative;
+    font-family: "Jost",sans-serif;
+    text-align: center;
+    margin-bottom: 110px;
+    margin-top: 60px;
+}
+.fondo-blanco{
+    background-color: white;
+    
+}
+
+/*hover image - redes*/
+.imgHover {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  
+  .overlay {
+    display: grid;
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);/* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 90px;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .imgHover:hover .overlay {
+    opacity: 1;
+
+   /*ZOOM imagen*/
+}
+.imgHover .image {
+    transition: .5s ease; 
+
+}
+.imgHover:hover .image {
+    transform: scale(1.1); 
+
+}
+
+/*estilo card */
+
+.card{
+    border: none;
+}
+.card-footer{
+    background: none;
+    border: none;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+.card-text{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0px;
+}
+.detalleCol{
+    color: #4c4c4c;
+    margin-top: 20px;
+    font-size: 18px;
+    letter-spacing: .6px;
+}
+/*Linea separadora*/
+#divi{
+    padding-top: 10px;
+    width: 55px;
+    border-bottom: 2px solid #bbbbbb;
+}
+
+/*contacto*/
+.text-dark{
+    font-size: 19px;
+
+}
+
+
+

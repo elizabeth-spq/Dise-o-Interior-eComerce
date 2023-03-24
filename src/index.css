@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+    --color1: #fafafa;
+    --color2: #747474;
+    --color-blanco: #FFFFFF;
+    --color-negro: #000000;
+    --color-gris-claro: #CCCCCC;
+    --color-gris-oscuro: #555555;
+  }
+body{
+    font-family: 'Jost', sans-serif;
+    background-color: var(--color1);
+    
+}
+.padded{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container{
+    max-width: 1265px;
+}
+
+/*Menu despleglable*/
+
+.offcanvas-backdrop.show {
+    opacity: 0 !important;
+}
